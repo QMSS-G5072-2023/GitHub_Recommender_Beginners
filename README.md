@@ -1,3 +1,13 @@
+# Background
+
+Initially, my aim was to develop a GitHub repository recommender. However, my Teaching Assistant pointed out that the concept was quite broad and commonplace. This feedback led me to deep research and observation, where I identified a significant gap: there are no GitHub recommenders specifically tailored for beginners.
+
+It's a common belief that repositories with a higher number of stars are generally better. However, for beginners, a high-star but complex repository might not be as beneficial. It’s akin to giving a high school textbook to a primary school student - the content, though high quality, is not appropriate for their level. Primary students have materials that are best suited for their learning stage.
+
+Addressing this, my recommender system doesn't solely focus on the number of stars. Instead, it employs a series of data techniques to calculate a ‘Learning Score’ for each repository. This score, along with the stars, is used to compute a weighted score, with 35% weightage for stars and 65% for the Learning Score. Repositories are then ranked based on this weighted score. A higher score indicates not only quality but also a greater friendliness towards beginners. This ranking is among repositories with at least 1,000 stars, ensuring a baseline quality.
+
+The system is in continuous evolution, requiring regular refinement and updates to accurately calculate Learning Scores and weighted scores. It’s a long-term commitment, and I am fully prepared for this enduring journey to create a more scientifically sound and beginner-friendly GitHub repository recommender.
+
 # GitHub_Recommender_Beginners
 GitHub Recommender for Beginners is an open-source Python package designed to assist newcomers in finding GitHub repositories that are both popular and beginner-friendly. 
 
