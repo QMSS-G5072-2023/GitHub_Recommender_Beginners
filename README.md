@@ -77,23 +77,23 @@ This isolates project dependencies in a virtual environment named "myenv".
 
   ```python
   import github_recommender_for_beginners
+  ```
 
 ## Uninstallation
 
 If you decide to uninstall the package, you can use the following command:
-  ```
+```
 pip uninstall GitHubRecommender
-
+```
 
 ## Updating
 To update the package to the latest version, use the following command:
 ```
 pip install --upgrade GitHubRecommender
+```
 
 
 
 
-
-
--This format, using the first-person perspective, is ready for markdown-supported platforms.
+This format, using the first-person perspective, is ready for markdown-supported platforms.
 
