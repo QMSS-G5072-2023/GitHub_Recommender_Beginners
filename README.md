@@ -50,13 +50,13 @@ This isolates project dependencies in a virtual environment named "myenv".
  
  On Windows:
 
-  ```
+  ```bash
   myenv\Scripts\activate
   ```
 
  On macOS and Linux:
 
-  ```
+  ```bash
   source myenv/bin/activate
   ```
   2. Install the Package
@@ -82,13 +82,13 @@ This isolates project dependencies in a virtual environment named "myenv".
 ## Uninstallation
 
 If you decide to uninstall the package, you can use the following command:
-```
+```bash
 pip uninstall GitHubRecommender
 ```
 
 ## Updating
 To update the package to the latest version, use the following command:
-```
+```bash
 pip install --upgrade GitHubRecommender
 ```
 
