@@ -81,15 +81,15 @@ This isolates project dependencies in a virtual environment named "myenv".
 ## Uninstallation
 
 If you decide to uninstall the package, you can use the following command:
-```
+  ```
 pip uninstall GitHubRecommender
-```
+
 
 ## Updating
 To update the package to the latest version, use the following command:
 ```
 pip install --upgrade GitHubRecommender
-```
+
 
 
 
