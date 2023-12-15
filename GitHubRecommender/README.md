@@ -11,17 +11,18 @@ The GitHub Repository Recommender is a Python-based tool that suggests GitHub re
 
 ## Installation
 Install the package via pip:
-
+```
 pip install GitHubRecommender
-
+```
 
 ## Usage
 To use the recommender system:
 
 ```python
 from GitHubRecommender import recommend
-
+```
 # Fetch and recommend repositories
+
 recommend(language='python', min_stars=1000)
 
 Dependencies

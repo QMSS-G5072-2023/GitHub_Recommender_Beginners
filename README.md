@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Background
 
 Initially, my aim was to develop a GitHub repository recommender. However, my Teaching Assistant pointed out that the concept was quite broad and commonplace. This feedback led me to deep research and observation, where I identified a significant gap: there are no GitHub recommenders specifically tailored for beginners.
@@ -10,6 +11,9 @@ The system is in continuous evolution, requiring regular refinement and updates 
 
 # GitHub_Recommender_Beginners
 GitHub Recommender for Beginners is an open-source Python package designed to assist newcomers in finding GitHub repositories that are both popular and beginner-friendly. 
+=======
+
+>>>>>>> f09230d0dc44b5313123a2207dd2ccb52bb51de5
 
 # GitHub Recommender for Beginners
 
@@ -61,13 +65,13 @@ This isolates project dependencies in a virtual environment named "myenv".
  
  On Windows:
 
-  ```
+  ```bash
   myenv\Scripts\activate
   ```
 
  On macOS and Linux:
 
-  ```
+  ```bash
   source myenv/bin/activate
   ```
   2. Install the Package
@@ -88,16 +92,20 @@ This isolates project dependencies in a virtual environment named "myenv".
 
   ```python
   import github_recommender_for_beginners
+  ```
 
 ## Uninstallation
-If you decide to uninstall the package, you can use the following command:
 
+If you decide to uninstall the package, you can use the following command:
+```bash
 pip uninstall GitHubRecommender
+```
 
 ## Updating
 To update the package to the latest version, use the following command:
-
+```bash
 pip install --upgrade GitHubRecommender
+```
 
 
 
